@@ -1,7 +1,7 @@
 @import url("null.css");
 
 .wrapper1 {
-background-color:rgba(56, 56, 56, 0.5);
+background-color:#f5f5f5;
 }
 .wrapper2 {
 background-color:rgb(255, 255, 255);
@@ -10,7 +10,9 @@ background-color:rgb(255, 255, 255);
 	max-width: 1020px;
 	margin: 0 auto;
 }
-.about {}
+.about {
+	margin: 0px 0px 230px 0px;
+}
 .about__container{
 	background-color:rgb(255, 255, 255);
 	padding: 100px 87px 0;
@@ -48,20 +50,22 @@ background-color:rgb(255, 255, 255);
 .subtitle{
 	font-size: 16px;
 	line-height: 150%;
-	/* or 150% */
 	letter-spacing: 0.15px;
 }
 .about__subtitle {
 	color: #4B4B4B;
 }
-.about__image {}
+.about__image {
+	margin: 0px 0px -120px 0px;
+	max-width: 100%;
+}
 
 .services {
-	background-color:#F5F5F5;
+	/* background-color:#F5F5F5; */
 }
 .services__container {
-	background-color:#F5F5F5;
-	padding: 110px 0px 120px 0px;
+	/* background-color:#F5F5F5; */
+	/* padding: 110px 0px 120px 0px; */
 }
 .services__item {
 	margin: 0px 0px 33px 0px;
@@ -112,7 +116,6 @@ color: #02133C;
 	max-width: 1040px;
 	margin: 0 auto;
 }
-._container {}
 .our-deals__header {
 	margin: 0px 0px 55px 0px;
 }
@@ -135,7 +138,6 @@ color: #02133C;
 }
 .content__text {
 	margin: 0px 0px 28px 0px;
-
 }
 .content__list {
 	margin: 0px 0px 28px 0px;
@@ -163,18 +165,15 @@ color: #02133C;
 .header__body {
 	padding: 50px 200px;
 	background-color:rgba(255, 251, 21, 0.671);
-
 }
 .header__body h1 {
 	font-size: 50px;
 	font-weight: 600;
 	color: #cd40f8;
-
 }
 .main {}
 .list{
 	padding: 90px 200px;
-
 }
 .list li{
 }
