@@ -141,7 +141,15 @@ color: #02133C;
 }
 .content__list {
 	margin: 0px 0px 28px 0px;
+	counter-reset: count;
 }
+.content__list li {
+	counter-increment: count;
+}
+.content__list li::before {
+	content: "(" counter(count, lower-alpha) ") ";
+}
+
 .shop {}
 .shop__container {
 	max-width: 430px;
